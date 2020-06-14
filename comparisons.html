@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Components</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class='bg-light'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand bg-info text-light p-3 mh-100 font-weight-bold" href="#">Weather Data</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="www.chess.com">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+    </nav>
+    <div class="container bg-white" style="margin-top: 50px;">
+      <div class="row">
+          <div class="col-lg-12">
+              <h1 class="text-info">Comparison: Latitude vs. X</h1>
+              <hr>
+              <p>
+                Click on any plot to get an in depth analysis.
+              </p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-info">vs. Max Temperature</h3>
+            <img src="Resources/assets/images/Fig1.png" class="img-fluid"/>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-info">vs. Humidity</h3>
+            <img src="Resources/assets/images/Fig2.png" class="img-fluid"/>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-info">vs. Cloudiness</h3>
+          <img src="Resources/assets/images/Fig3.png" class="img-fluid"/>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-info">vs. Wind Speed</h3>
+          <img src="Resources/assets/images/Fig4.png" class="img-fluid"/>
+        </div>
+    </div>
+    </div>
+
+    <div class="card-footer text-center text-white bg-secondary border-top-10 border-info" style="position: fixed; left: 0; bottom: 0; width: 100%;">
+      © Copyright Tom Stark 2020
+    </div>
+</body>
+</html>
