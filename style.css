@@ -1,1 +1,11 @@
-<!DOCTYPE html>
+.topbanner {
+    background: white;
+  }
+  
+@media (max-width: 990px) {
+    .topbanner {
+        background: rgb(32, 162, 182);
+
+    }
+
+    }
