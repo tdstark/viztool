@@ -1,11 +1,17 @@
 .topbanner {
     background: white;
   }
+
+.dropdowntext {
+    color: rgb(127, 127,127);
+}
   
 @media (max-width: 990px) {
     .topbanner {
         background: rgb(32, 162, 182);
 
     }
-
+    .dropdowntext {
+        color: white;
+    }
     }
